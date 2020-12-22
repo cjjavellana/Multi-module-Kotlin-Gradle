@@ -4,9 +4,9 @@ This application demonstrates how to structure a multi-module kotlin project wit
 This is also a proof-of-concept to demonstrate an application's capability to load 
 extensions (or plugins) at runtime.
 
-## Application Architecture
+## Module Dependency
 
-![Architecture](docs/mm-kt-gdl.png?raw=true "Architecture")
+![Module Dependency](docs/mm-kt-gdl.png?raw=true "Module Dependency")
 
 ## Directory Structure
 
