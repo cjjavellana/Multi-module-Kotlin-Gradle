@@ -1,7 +1,7 @@
 # Multi-module Kotlin Project with Gradle
 This application demonstrates how to structure a multi-module kotlin project with gradle.
 
-This is also a proof-of-concept demonstrate an application's capability to load 
+This is also a proof-of-concept to demonstrate an application's capability to load 
 extensions (or plugins) at runtime.
 
 ## Application Architecture
