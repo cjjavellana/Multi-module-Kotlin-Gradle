@@ -33,6 +33,6 @@ plugins {
 ## Declaring the multi-module gradle project
 [settings.gradle.kts](settings.gradle.kts)
 ```kotlin
-rootProject.name = "RtLoader"
+rootProject.name = "multi-module-kt-gradle"
 include("app", "lib", "shared")
 ```
