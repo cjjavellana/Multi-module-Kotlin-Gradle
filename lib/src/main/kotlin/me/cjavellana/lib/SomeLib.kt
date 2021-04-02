@@ -1,10 +1,10 @@
 package me.cjavellana.lib
 
-import rt.Plugin
+import com.alphamail.plugin.api.AlphamailPlugin
 
-class SomeLib : Plugin {
+class SomeLib : AlphamailPlugin {
 
-    override fun doSomething(): Any? {
+    override fun execute(): Any? {
         return "Hello"
     }
 }

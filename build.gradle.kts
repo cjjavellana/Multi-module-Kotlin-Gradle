@@ -8,5 +8,6 @@ allprojects {
 	repositories {
 		jcenter()
 	}
+
 }
 

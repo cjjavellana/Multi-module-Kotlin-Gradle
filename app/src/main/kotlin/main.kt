@@ -1,4 +1,4 @@
-import rt.Plugin
+import com.alphamail.plugin.api.AlphamailPlugin
 import java.net.URL
 import java.net.URLClassLoader
 import kotlin.jvm.internal.Reflection
@@ -11,8 +11,8 @@ class Loader {
         val classToLoad = Class.forName("me.cjavellana.lib.SomeLib", true, child)
         val kClass = Reflection.createKotlinClass(classToLoad)
 
-        val instance = kClass.createInstance() as Plugin
-        return instance.doSomething()
+        val instance = kClass.createInstance() as AlphamailPlugin
+        return instance.execute()
     }
 
 }
