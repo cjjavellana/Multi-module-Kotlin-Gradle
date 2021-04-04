@@ -2,6 +2,7 @@ package com.alphamail.plugin.api
 
 interface AlphamailPlugin {
 
-    fun execute(): Any?
+    fun beforeSend(): Any?
 
+    fun afterSend(): Any?
 }

@@ -5,6 +5,6 @@ data class Configuration(
     /**
      * Describes the fields
      */
-    val fields: List<Field> = emptyList()
+    val fieldConfigurations: List<FieldConfiguration> = emptyList()
 
 )

@@ -15,7 +15,7 @@ class PluginDescriptor {
             if (pluginCfgClass != null) {
                 val fields = pluginCfgClass.declaredFields.map { field ->
                     val descriptor = field.getAnnotation(FieldDescriptor::class.java)
-                    Field(
+                    FieldConfiguration(
                         name = field.name,
                         displayName = descriptor.displayName,
                         fieldType = descriptor.fieldType,

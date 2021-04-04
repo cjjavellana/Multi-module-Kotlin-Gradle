@@ -12,7 +12,7 @@ class Loader {
         val kClass = Reflection.createKotlinClass(classToLoad)
 
         val instance = kClass.createInstance() as AlphamailPlugin
-        return instance.execute()
+        return instance.beforeSend()
     }
 
 }

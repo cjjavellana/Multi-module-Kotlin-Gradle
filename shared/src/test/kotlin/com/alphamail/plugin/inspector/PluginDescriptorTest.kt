@@ -9,7 +9,7 @@ internal class PluginDescriptorTest {
     @Test
     fun test() {
         val descriptor = PluginDescriptor().getConfigurationsOf(SampleConfigurablePlugin::class)
-        assertEquals(2, descriptor?.fields?.size)
+        assertEquals(2, descriptor?.fieldConfigurations?.size)
     }
 
 }
