@@ -62,7 +62,7 @@ class Tenant {
      *          This is an automated message, please do not reply.
      * ...
      *
-     * This can then be used when configuring plugins and or value to replace template placeholders as:
+     * This can then be used to configure plugins and/or value to replace template placeholders as:
      * {{ app.plugin.saveToOutlook.gaasProxyUsername }}
      *
      * Email templates can reference these global variables as:
